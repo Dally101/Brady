@@ -1,10 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
- output: "standalone",
- server: {
- port: 8080, // Set the port explicitly for Render
- },
+  output: "standalone",
+  server: {
+    port: 8080, // Set the port explicitly for Render
+  },
+};
 
 module.exports = nextConfig;
+
 
