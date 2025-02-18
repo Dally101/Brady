@@ -6,4 +6,5 @@ const nextConfig: NextConfig = {
  port: 8080, // Set the port explicitly for Render
  },
 
-export = nextConfig;
+module.exports = nextConfig;
+
